@@ -1,0 +1,76 @@
+.main {
+    padding: 30px 0;
+}
+
+.tooltip-overlay {
+    font-size: 12px;
+}
+
+.roundSubmitButton {
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 300;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.flight-list {
+    cursor: default;
+    border-right: 1px solid #ccc !important;
+}
+
+.flight-list .circle-icon {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.flight-date {
+    width: 100px;
+}
+
+td.flight-distance:after {
+    content: ' ';
+}
+
+.flight-list thead tr th {
+    padding: 0 0 0 1.4em;
+    line-height: 32px;
+}
+
+.flight-list tbody th,
+.flight-list tbody th a {
+    background: rgb(200, 200, 150);
+    color: #000;
+}
+
+.flight-list tbody th a:hover {
+    color: #fff;
+}
+
+.flight-list tbody,
+.flight-list tr td {
+    padding: 0.3em 0 0.3em 1em;
+    font-size: 13px;
+    font-family: Courier;
+    border-left: 1px solid #ccc;
+}
+
+.flight-list tr:hover td,
+.flight-list tr.hovered {
+    background: rgba(70, 180, 240, 0.1);
+    color: #444;
+}
+
+.flight-list tr td.flight-date .inner-date {
+    font-weight: normal;
+}
+
+.flight-list td.flight-distance {
+    text-align: right;
+}
+
+.flight-list td.flight-date .inner-actions,
+.flight-list tr td.flight-date .inner-actions a {
+    background: none;
+    color: inherit;
+}
